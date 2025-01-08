@@ -15,9 +15,9 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := OP4EC1
+PRODUCT_RELEASE_NAME := OPD2101
 
-$(call inherit-product, device/oppo/OP4EC1/device.mk)
+$(call inherit-product, device/oppo/OPD2101/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -28,10 +28,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := OP4EC1
-PRODUCT_NAME := twrp_OP4EC1
+PRODUCT_DEVICE := OPD2101
+PRODUCT_NAME := twrp_OPD2101
 PRODUCT_BRAND := OPPO
-PRODUCT_MODEL := Reno6 pro + 5G
+PRODUCT_MODEL := OPPO Pad
 PRODUCT_MANUFACTURER := OPPO
 
 # HACK: Set vendor patch level

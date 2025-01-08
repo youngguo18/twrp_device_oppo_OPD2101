@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/oppo/OP4EC1
+DEVICE_PATH := device/oppo/OPD2101
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -45,7 +45,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP4EC1,OP4F7FL1
+TARGET_OTA_ASSERT_DEVICE := OPD2101
 
 # Bootloader
 PRODUCT_PLATFORM := kona
